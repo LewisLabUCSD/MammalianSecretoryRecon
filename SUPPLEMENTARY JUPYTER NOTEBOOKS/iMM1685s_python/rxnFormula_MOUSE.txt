@@ -1,0 +1,143 @@
+SEC61A1_r + SEC61B_r + SEC61G_r -> SEC61C_r
+SSR1_r + SSR2_r + SSR3_r + SSR4_r -> TRAP_r
+ARF1_c + gdp_c -> ARF1-gdp_c
+ARF1-gdp_c + gtp_c -> ARF1-gtp_c + gdp_c
+ARF1-gdp_c -> 
+SAR1B_c + gdp_c -> SAR1B-gdp_c
+SAR1B-gdp_c + gtp_c -> SAR1B-gtp_c + gdp_c
+SAR1B-gdp_c -> 
+RAB1A_c + gdp_c -> RAB1A-gdp_c
+RAB6B_c + gdp_c -> RAB6B-gdp_c
+RAB8B_c + gdp_c -> RAB8B-gdp_c
+RAB1A-gdp_c -> 
+RAB6B-gdp_c -> 
+RAB8B-gdp_c -> 
+RAB1A-gdp_c + gtp_c -> RAB1A-gtp_c + gdp_c
+RAB6B-gdp_c + gtp_c -> RAB6B-gtp_c + gdp_c
+RAB8B-gdp_c + gtp_c -> RAB8B-gtp_c + gdp_c
+BiP-adp_r + atp_r -> BiP-atp_r + adp_r
+BiP-atp_r + h2o_r -> BiP-adp_r + pi_r
+BiP_r + atp_r -> BiP-atp_r
+BiP-adp_r -> 
+STX6-7-12_c + atp_c + 6 NSF_c + NAPA_c + h2o_c -> NSF(6)NAPA_c + STX6_c + STX7_c + STX12_c + adp_c + pi_c 
+BET1-SEC22B-USE1-STX8-STX18_c + atp_c + 6 NSF_c + NAPA_c + h2o_c -> NSF(6)NAPA_c + BET1_c + SEC22B_c + USE1_c + STX8_c + STX18_c + adp_c + pi_c 
+BET1-SEC22B-GOSR1-STX5_c + atp_c + 6 NSF_c + NAPA_c + h2o_c -> NSF(6)NAPA_c + BET1_c + SEC22B_c + GOSR1_c + STX5_c + adp_c + pi_c 
+NSF(6)NAPA_c -> 6 NSF_c + NAPA_c
+NPLOC4_c + UFD1L_c + VCP_c + DERL1_r + VIMP_c + DERL3_r + SEC61C_r + BCAP31_r -> retroTranslocase_c
+14 PROTA_c + 14 PROTB_c + PROASCHAP1_c + PROASCHAP2_c + PROASCHAP3_c + PROASCHAP4_c + 2 PROTREG4_c + 2 PROTREG5_c + 2 PROTREG6_c + 2 PROTREG7_c + 2 PROTREG8_c + 2 PROTREG9_c + 2 PROTREG10_c + 2 PROTREG11_c + 2 PROTREG12_c + 2 PROTREG13_c + 2 PROTREG14_c -> Proteasome_c
+ASNA1-adp_c + atp_c -> ASNA1-atp_c + adp_c
+ASNA1-adp_c -> 
+ASNA1_c + atp_c -> ASNA1-atp_c
+CALR_r + ca2_r -> CALR-ca2_r
+CALR-ca2_r -> 
+gthox_c  -> gthox_r
+P4HB_r + gthox_r -> P4HB-ox_r + 2 gthrd_r
+P4HB_r + ERO1LB-ox_r -> P4HB-ox_r + ERO1LB_r
+P4HB_r + h2o2_r -> P4HB-ox_r + 2 h2o_r
+ERO1LB_r + o2_r -> ERO1LB-ox_r + h2o2_r
+ERO1A_r + o2_r -> ERO1A-ox_r + h2o2_r
+P4HB_r + ERO1A-ox_r -> P4HB-ox_r + ERO1A_r
+EXOC1_c + EXOC2_c + EXOC3_c + EXOC4_c + EXOC5_c + EXOC6B_c + EXOC7_c + EXOC8_c -> EXOCYST_c
+EXOCYST_c -> 
+STX1B-4-11-16-19_c + atp_c + 6 NSF_c + NAPA_c + h2o_c -> NSF(6)NAPA_c + STX1B_c + STX4_c + STX11_c + STX16_c + STX19_c + adp_c + pi_c + h_c
+SRP14_c + SRP19_c + SRP54_c + SRP68_c + SRP72_c -> SRP_c
+SRPRA_r + SRPRB_r -> SRPR_r
+SPCS1_r + SPCS2_r + SPCS3_r + SEC11A_r + SEC11C_r -> SPC_r
+SPC_r -> 
+Translocase_r -> SEC61C_r + SEC62_r + SEC63_r + TRAM1_r + TRAP_r + DNAJC1_r + SERP1_r 
+TRAP_r -> 
+! XXX-preClathrin_g + 24 ARF1-gtp_c + 120 CLTA_c + 120 CLTB_c + 120 CLTC_c + 6 GGA1_c + 6 GGA2_c + 6 GGA3_c + STX7_c + 20 RAB6B-gtp_c -> XXX-GGA-coated_c
+XXX-GGA-coated_c + STX6_c + STX12_c + 44 h2o_c -> ! XXX-mature[cv] + 24 ARF1-gdp_c + 120 CLTA_c + 120 CLTB_c + 120 CLTC_c + 6 GGA1_c + 6 GGA2_c + 6 GGA3_c + STX6-7-12_c + 20 RAB6B-gdp_c + 44 pi_c 
+! XXX_preCOPI_g + 117 ARF1-gtp_c + COPA_c + COPB1_c + COPB2_c + COPD_c + COPE_c + COPG_c + COPZ1_c + COPZ2_c + 32 BET1_c + 32 SEC22B_c + 10 RAB1A-gtp_c -> XXX-COPI-coated_c
+XXX-COPI-coated_c + 117 h2o_c -> XXX-COPI-uncoated_r +  117 pi_c + 117 ARF1-gdp_c + COPA_c + COPB1_c + COPB2_c + COPD_c + COPE_c + COPG_c + COPZ1_c + COPZ2_c
+XXX-COPI-uncoated_r + 32 USE1_c + 32 STX8_c + 32 STX18_c + 10 h2o_c -> ! XXX_mature_r + 10 pi_c + 10 RAB1A-gdp_c + 32 BET1-SEC22B-USE1-STX8-STX18_c 
+XXX-M8B_r + LMAN1L_r -> XXX-M8B-LMAN1L_r
+XXX-dgpi_hs_r + LMAN2_r -> XXX-GPI(man)3-LMAN2_r
+! XXX-M8B-LMAN1L_r + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + 98 BET1_c + 98 SEC22B_c + 84 SAR1B-gtp_c + 10 RAB1A-gtp_c + SEC16_c -> XXX-COPII-coated_c
+XXX-COPII-coated_c + 84 h2o_c -> XXX-COPII-uncoated_c + 84 SAR1B-gdp_c + 84 pi_c + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + SEC16_c
+XXX-COPII-uncoated_c + 98 GOSR1_c + 98 STX5_c + 10 h2o_c -> ! XXX-M8B_g + ! LMAN1L_r + 10 pi_c + 10 RAB1A-gdp_c + 98 BET1-SEC22B-GOSR1-STX5_c
+! XXX-GPI(man)3-LMAN2_r + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + 98 BET1_c + 98 SEC22B_c + 84 SAR1B-gtp_c + 10 RAB1A-gtp_c + SEC16_c -> XXX-COPII-coated-GPI3_c
+XXX-COPII-coated-GPI3_c + 84 h2o_c -> XXX-COPII-uncoated-GPI3_c + 84 SAR1B-gdp_c + 84 pi_c + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + SEC16_c
+XXX-COPII-uncoated-GPI3_c + 98 GOSR1_c + 98 STX5_c + 10 h2o_c -> ! XXX-dgpi_hs_g + ! LMAN2_r + 10 pi_c + 10 RAB1A-gdp_c + 98 BET1-SEC22B-GOSR1-STX5_c
+XXX_DSB_r + LMAN1L_r -> XXX-LMAN1L_r
+XXX_r + LMAN1L_r -> XXX-LMAN1L_r
+! XXX-LMAN1L_r + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + 98 BET1_c + 98 SEC22B_c + 84 SAR1B-gtp_c + 10 RAB1A-gtp_c + SEC16_c -> XXX-COPII-coated_c
+XXX-COPII-coated_c + 84 h2o_c -> XXX-COPII-uncoated_c + 84 SAR1B-gdp_c + 84 pi_c + SEC23A_c + SEC24A_c + SEC13_c + SEC31A_c + SEC16_c
+XXX-COPII-uncoated_c + 98 GOSR1_c + 98 STX5_c + 10 h2o_c -> ! XXX_g + ! LMAN1L_r + 10 pi_c + 10 RAB1A-gdp_c + 98 BET1-SEC22B-GOSR1-STX5_c
+DDOST_r  + RPN1_r + RPN2_r + DAD1_r + STT3A_r + STT3B_r -> OST_r
+XXX_preNG_r + ? g3m8mpdol_r + OST_r -> h_r + XXX-G3M9_r + ? doldp_U_r + DDOST_r  + RPN1_r + RPN2_r + DAD1_r + STT3A_r + STT3B_r
+XXX-M9-misfold_r + ? h2o_r -> XXX-M8C-misfold_r + ? man_r
+XXX-M8C-misfold_r + ? h2o_r -> XXX-M7A-misfold_r + ? man_r
+XXX-M7A-misfold_r + ? h2o_r -> XXX-M6-misfold_r + ? man_r
+XXX-M6-misfold_r + ? h2o_r -> XXX-M5-misfold_r + ? man_r
+XXX-M5-misfold_r + OS9_r + BiP-adp_r + HSP90B1_r -> XXX-M5-unfold-OS9-BiP-adp-HSP90B1_r
+XXX-M5-unfold-OS9-SEL1_r + SYVN1_r -> XXX-M5-unfold-SEL1-SYVN1_r + OS9_r
+XXX-M5-unfold-SEL1-SYVN1_r + UBIQP_c + 8 atp_c -> XXX-M5-unfold-UBIQP-SEL1-SYVN1_r + 8 amp_c + 8 ppi_c
+XXX-M5-unfold-UBIQP-SEL1-SYVN1_r + retroTranslocase_c + 6 atp_c + 6 h2o_c -> XXX-M5-unfold-UBIQP_c + SYVN1_r + 6 adp_c + 6 pi_c + SEL1_r + NPLOC4_c + UFD1L_c + VCP_c + DERL1_r + DERL3_r + VIMP_c + BCAP31_r + SEC61C_r
+XXX-M5-unfold-UBIQP_c + ? h2o_c + RAD23A_c ->  XXX-unfold-UBIQP-RAD23A_c + ? acgam_c + ? man_c
+XXX-unfold-UBIQP-RAD23A_c + Proteasome_c + 8 h2o_c ->  XXX-unfold-Proteasome_c + RAD23A_c + UBIQP_c
+XXX-unfold-Proteasome_c + ! atp_c + ! h2o_c -> ! gly_c + ! ala__L_c + ! val__L_c + ! leu__L_c + ! ile__L_c + ! met__L_c + ! trp__L_c + ! phe__L_c + ! pro__L_c + ! ser__L_c + ! thr__L_c + ! cys__L_c + ! tyr__L_c + ! asn__L_c + ! gln__L_c + ! glu__L_c + ! asp__L_c + ! lys__L_c + ! arg__L_c + ! his__L_c + Proteasome_c + ! adp_c + ! pi_c + ! h_c
+Proteasome_c -> 
+XXX-M5-unfold-OS9-BiP-adp-HSP90B1_r + SEL1_r -> XXX-M5-unfold-OS9-SEL1_r + BiP-adp_r + HSP90B1_r
+XXX-M8B_g + ? h2o_g -> XXX-M7_g + ? man_g
+XXX-M7_g + ? h2o_g -> XXX-M6_g + ? man_g
+XXX-M6_g + ? h2o_g -> XXX-M5_g + ? man_g
+XXX-M5_g + ? uacgam_g -> h_g + XXX-M5-GN_g + ? udp_g
+XXX-M5-GN_g + ? h2o_g -> XXX-M4-GN_g + ? man_g
+XXX-M4-GN_g + ? h2o_g -> XXX-M3-GN_g + ? man_g
+XXX-M3-GN_g + ? uacgam_g -> XXX-M3-GN2_g + ? udp_g
+XXX-M3-GN2_g + ? uacgam_g -> XXX-M3-GN3_g + ? udp_g
+XXX-M3-GN2_g + 3 uacgam_g -> XXX-M3-GN-GN2_g + 3 udp_g
+XXX-M3-GN-GN2_g + 3 uacgam_g -> XXX-M3-GN2-GN2_g + 3 udp_g
+XXX-M3-GN2-GN2_g + ? uacgam_g -> XXX-M3-GN3-GN2_g + ? udp_g
+XXX-M3-GN2_g + ? gdpfuc_g -> XXX-M3-GN2-F_g + ? gdp_g
+XXX-M3-GN2-F_g + ? udpgal_g -> XXX-M3-GN2-F-GL_g + ? udp_g
+XXX-M3-GN2-F-GL_g + ? udpgal_g -> XXX-M3-GN2-F-GL2_g + ? udp_g
+XXX-M3-GN2-F-GL2_g + ? cmpacna_g -> XXX-M3-GN2-F-GL2-NA_g + ? cmp_g
+XXX-M3-GN2-F-GL2-NA_g + ? cmpacna_g -> XXX-M3-GN2-F-GL2-NA2_g + ? cmp_g
+XXX_preOG_g + ? udpacgal_g -> ? h_g + ? udp_g + XXX-acgal_g
+XXX-acgal_g + ? udpgal_g + COSMC_g -> ? h_g + ? udp_g + XXX-Core1_g
+XXX-Core1_g + ? uacgam_g -> ? h_g + ? udp_g + XXX-Core2_g + COSMC_g
+XXX-M3-GN2-GN2_g + 3 gdpfuc_g -> XXX-M3-GN2-GN2-F_g + 3 gdp_g
+XXX-M3-GN2-GN2-F_g + 12 udpgal_g ->  XXX-M3-GN4-GL4-F_g + 12 udp_g 
+XXX-M3-GN4-GL4-F_g + 12 cmpacna_g -> XXX-M3-GN4-GL4-NA4-F_g + 12 cmp_g
+XXX_preGPI_r + gpi_hs_r -> XXX-gpi_hs_r + gpi_sig_r
+XXX-gpi_hs_r + h2o_r -> XXX-dgpi_hs_r + hdca_r + h_r
+XXX_c + BAT3_c + CALM_c + 4 ca2_c -> XXX-BAT3-CALM_c 
+XXX-BAT3-CALM_c + 2 ASNA1-atp_c -> BAT3_c + CALM_c + 4 ca2_c + XXX-ASNA1-atp_c
+XXX-ASNA1-atp_c + SEC61C_r -> XXX-ASNA1-atp-SEC61C_r
+XXX-ASNA1-atp-SEC61C_r + SEC62_r + SEC63_r + TRAM1_r + TRAP_r + DNAJC1_r + SERP1_r + ! BiP-adp_r + 2 h2o_c -> XXX-BiP-adp_r + Translocase_r + 2 ASNA1-adp_c + 2 pi_c + 2 h_c
+XXX-BiP-adp_r + ! atp_r -> XXX_r + ! BiP-atp_r + ! adp_r + ! h_c
+XXX-ASNA1-atp_c + WRB_r ->  XXX-ASNA1-atp-WRB_r
+XXX-ASNA1-atp-WRB_r + 2 h2o_c -> XXX_r + 2 ASNA1-adp_c + 2 pi_c + 2 h_c + WRB_r
+XXX-G3M9_r + ? h2o_r -> XXX-G2M9_r + ? glc_D_r
+XXX-G2M9_r + ? h2o_r -> XXX-preG1M9_r + ? glc_D_r
+XXX-preG1M9_r + CALR-ca2_r + CANX_r -> XXX-G1M9-CALR-CANX_r
+XXX-G1M9-CALR-CANX_r -> XXX-G1M9_r + CALR-ca2_r + CANX_r
+XXX-G1M9_r + ? h2o_r -> XXX-M9_r + ? glc_D_r
+XXX-M9_r -> XXX-M9-misfold_r
+XXX-M9-misfold_r + ? udpg_r + UGGT1_r -> XXX-M9-UGGT1_r
+XXX-M9-UGGT1_r -> XXX-preG1M9_r + ? udp_r + UGGT1_r
+XXX-M9_r + ? h2o_r -> XXX-M8B_r + ? man_r
+XXX_preDSB_r + ? P4HB-ox_r -> XXX-ds-P4HB-ox_r
+XXX-ds-P4HB-ox_r -> XXX_DSB_r + ? P4HB_r
+! XXX-preSV_g + 24 ARF1-gtp_c + 120 CLTA_c + 120 CLTB_c + 120 CLTC_c + 38 AP1B1_c + 38 AP1M1_c + 38 AP1S1_c + 38 AP1S2_c + 38 AP1G1_c + 38 AP3D1_c + 38 AP3M1_c + 38 AP3M2_c + 38 AP3B2_c + 38 AP3S2_c + STX1B_c + STX4_c + 20 RAB8B-gtp_c + EXOCYST_c -> XXX-AP-coated_c
+XXX-AP-coated_c + STX19_c + STX11_c + STX16_c + 44 h2o_c -> ! XXX_mature[sv] + 24 ARF1-gdp_c + 120 CLTA_c + 120 CLTB_c + 120 CLTC_c + 38 AP1B1_c + 38 AP1M1_c + 38 AP1S1_c + 38 AP1S2_c + 38 AP1G1_c + 38 AP3D1_c + 38 AP3M1_c + 38 AP3M2_c + 38 AP3B2_c + 38 AP3S2_c + STX1B-4-11-16-19_c + 20 RAB8B-gdp_c + EXOCYST_c + 44 pi_c + 44 h_c
+XXX_c + SRP_c -> XXX-SRP_c
+XXX-SRP_c + SRPR_r + RRBP1_r -> XXX-SRP-SRPR-RRBP1_c 
+XXX-SRP-SRPR-RRBP1_c + SEC61C_r + 2 gtp_c -> XXX-SRP-SRPR-SEC61C_c + RRBP1_r
+XXX-SRP-SRPR-SEC61C_c + 2 h2o_c -> XXX-SEC61C_c + SRP14_c + SRP19_c + SRP54_c + SRP68_c + SRP72_c + SRPRA_r + SRPRB_r + 2 gdp_c + 2 pi_c + 2 h_c
+XXX-SEC61C_c + SPC_r + h2o_r -> XXX-SEC61-SPC_r + XXX-sp_r
+XXX-SEC61-SPC_r + SEC62_r + SEC63_r + TRAM1_r + TRAP_r + DNAJC1_r + SERP1_r + ! BiP-adp_r -> XXX-BiP-adp_r + Translocase_r + SPC_r
+XXX-BiP-adp_r + ! atp_r -> XXX_r + ! BiP-atp_r + ! adp_r + ! h_c
+XXX-sp_r + 22 atp_c + 22 h2o_c -> ? gly_c + ? ala__L_c + ? val__L_c + ? leu__L_c + ? ile__L_c + ? met__L_c + ? trp__L_c + ? phe__L_c + ? pro__L_c + ? ser__L_c + ? thr__L_c + ? cys__L_c + ? tyr__L_c + ? asn__L_c + ? gln__L_c + ? glu__L_c + ? asp__L_c + ? lys__L_c + ? arg__L_c + ? his__L_c + 22 adp_c + 22 pi_c + 22 h_c
+? h2o_c + ? atp_c + ? gtp_c + ? gly_c + ? ala__L_c + ? val__L_c + ? leu__L_c + ? ile__L_c + ? met__L_c + ? trp__L_c + ? phe__L_c + ? pro__L_c + ? ser__L_c + ? thr__L_c + ? cys__L_c + ? tyr__L_c + ? asn__L_c + ? gln__L_c + ? glu__L_c + ? asp__L_c + ? lys__L_c + ? arg__L_c + ? his__L_c -> ? h_c + ? amp_c + adp_c + ? pi_c + ? gdp_c + ? ppi_c + XXX_c
+? h2o_c + ? atp_c + ? gtp_c + ? gly_c + ? ala__L_c + ? val__L_c + ? leu__L_c + ? ile__L_c + ? met__L_c + ? trp__L_c + ? phe__L_c + ? pro__L_c + ? ser__L_c + ? thr__L_c + ? cys__L_c + ? tyr__L_c + ? asn__L_c + ? gln__L_c + ? glu__L_c + ? asp__L_c + ? lys__L_c + ? arg__L_c + ? his__L_c -> ? h_c + ? amp_c + adp_c + ? pi_c + ? gdp_c + ? ppi_c + component
+h2o_c + atp_c + 2 ca2_c  -> h_r + adp_c + pi_c + 2 ca2_r
+g3m8mpdol_L_r -> g3m8mpdol_r
+g3m8mpdol_U_r -> g3m8mpdol_r
+doldp_L_r -> doldp_r
+doldp_U_r -> doldp_r
+PSMA1_c + PSMA2_c + PSMA3_c + PSMA4_c + PSMA5_c + PSMA7_c + PSMA8_c -> PROTA_c
+PSMB1_c + PSMB2_c + PSMB3_c + PSMB4_c + PSMB5_c + PSMB6_c + PSMB7_c + PSMA8_c + PROTB9_c + PROTB10_c + PROTB11_c -> PROTB_c
+h2o2_c <=> h2o2_r

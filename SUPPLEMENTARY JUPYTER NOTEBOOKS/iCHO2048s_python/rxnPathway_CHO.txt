@@ -1,0 +1,135 @@
+Pathway
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Canonical
+Clathrin vesicles
+Clathrin vesicles
+COPI
+COPI
+COPI
+COPII_NG
+COPII_GPI
+COPII_NG
+COPII_NG
+COPII_NG
+COPII_GPI
+COPII_GPI
+COPII_GPI
+COPII_DSB
+COPII-normal
+COPII-canonical
+COPII-canonical
+COPII-canonical
+Canonical
+ER glycosylation
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+ERAD
+Canonical
+ERAD
+Golgi processing N
+Golgi processing N
+Golgi processing N
+Golgi processing N
+Golgi processing N
+Golgi processing N
+Golgi processing N
+
+Golgi processing (EPO specific)
+Golgi processing (EPO specific)
+
+
+
+
+
+
+Golgi processing O
+Golgi processing O
+Golgi processing O
+Golgi processing (EPO specific)
+Golgi processing (EPO specific)
+Golgi processing (EPO specific)
+GPI Transfer
+GPI Transfer
+Post-translational Translocation
+Post-translational Translocation
+Post-translational Translocation (Secretory protein)
+Post-translational Translocation (Secretory protein)
+Post-translational Translocation (Secretory protein)
+Post-translational Translocation (Tail anchored membrane protein)
+Post-translational Translocation (Tail anchored membrane protein)
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding
+Protein Folding (disulfide bond formation)
+Protein Folding (disulfide bond formation)
+SV
+SV
+Translocation
+Translocation
+Translocation
+Translocation
+Translocation
+Translocation
+Translocation
+Translocation
+
