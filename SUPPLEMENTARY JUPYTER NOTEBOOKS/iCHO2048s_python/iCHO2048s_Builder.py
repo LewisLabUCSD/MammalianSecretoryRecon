@@ -288,7 +288,7 @@ def generateProteinSpecificRxns_A(entryID):
             rxnNames.append(copii_names[i])
         
         #[rxns,rxnNames] = addPathway('COPII_GPI',rxns,rxnNames)
-        connector = 'XXX-dpgi_cho[g]'
+        connector = 'XXX-dgpi_cho[g]'
         
     elif connector == 'XXX_DSB[r]':
         [rxns,rxnNames] = addPathway('COPII_DSB',rxns,rxnNames)
@@ -609,7 +609,7 @@ def generateProteinSpecificRxns_B(PSI_row): # Use for non-CHO proteins
             rxnNames.append(copii_names[i])
         
         #[rxns,rxnNames] = addPathway('COPII_GPI',rxns,rxnNames)
-        connector = 'XXX-dpgi_cho[g]'
+        connector = 'XXX-dgpi_cho[g]'
         
     elif connector == 'XXX_DSB[r]':
         [rxns,rxnNames] = addPathway('COPII_DSB',rxns,rxnNames)
