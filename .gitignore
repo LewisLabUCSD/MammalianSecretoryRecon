@@ -1,2 +1,4 @@
 .DS_Store
 SUPP*/.DS_Store
+*.ipynb_checkpoints/*
+./SUPPLEMENTARY\ JUPYTER\ NOTEBOOKS/.ipynb_*
